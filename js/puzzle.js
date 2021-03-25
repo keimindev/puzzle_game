@@ -25,7 +25,6 @@ function checkStatus(){
 
   if(unMatchedList.length === 0){
     gameText.style.display = "block";
-    container.find('li').style.border ="none";
     isPlaying = false;
     clearInterval(timeInterval);
   }
