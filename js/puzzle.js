@@ -99,8 +99,8 @@ container.addEventListener('dragover', (e) => {
     let originPlace;
     let isLast = false;
   
-    if(dragged.el.nextsibling){
-      originPlace = dragged.el.nextsibling
+    if(dragged.el.nextSibling){
+      originPlace = dragged.el.nextSibling
     }else{
       originPlace = dragged.el.previousSibling
       isLast = true;
